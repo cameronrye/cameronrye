@@ -1,7 +1,7 @@
 ```bash
 $ ssh cameron@rye.dev
 Last login: Thu Sep 19 02:21:09 2025
-Welcome to Cameron's development environment
+Welcome to Camerons development environment
 
 cameron@rye:~$ whoami
 cameron
@@ -34,7 +34,7 @@ cameron   ∞     0.0  0.1  coffee.service --daemon
 cameron@rye:~$ uptime
  02:21:09 up 15 years, 243 days,  1 user,  load average: 0.42, 0.15, 0.08
 
-cameron@rye:~$ curl -s https://api.github.com/users/cameronrye | jq '.created_at'
+cameron@rye:~$ curl -s https://api.github.com/users/cameronrye | jq ".created_at"
 "2009-01-19T23:55:56Z"
 
 cameron@rye:~$ echo $CURRENT_FOCUS
