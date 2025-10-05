@@ -23,7 +23,7 @@ Building tools that bridge forgotten protocols with future AI.
 Specializing in Model Context Protocol servers and legacy internet archaeology.
 
 cameron@rye:~$ ls projects/
-activitypub-mcp/  atproto-mcp/  doskit/  electromagnetic-spectrum-explorer/  gopher-mcp/  openzim-mcp/
+activitypub-mcp/  atproto-mcp/  doskit/  gopher-mcp/  openzim-mcp/
 
 cameron@rye:~$ ps aux | grep cameron
 cameron   1337  0.1  2.1  MCP server development
