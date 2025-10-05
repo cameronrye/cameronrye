@@ -23,12 +23,13 @@ Building tools that bridge forgotten protocols with future AI.
 Specializing in Model Context Protocol servers and legacy internet archaeology.
 
 cameron@rye:~$ ls projects/
-awesome-mcp-servers/  gopher-mcp/  openzim-mcp/  dotfiles/  chipsecuritysystem/
+activitypub-mcp/  atproto-mcp/  doskit/  electromagnetic-spectrum-explorer/  gopher-mcp/  openzim-mcp/
 
 cameron@rye:~$ ps aux | grep cameron
 cameron   1337  0.1  2.1  MCP server development
-cameron   1991  0.0  1.2  gopher protocol revival
-cameron   2025  0.2  3.4  AI integration research
+cameron   1991  0.0  1.2  fediverse bridge daemon
+cameron   2025  0.2  3.4  atproto integration
+cameron   8086  0.1  1.8  doskit.wasm --retro
 cameron   ∞     0.0  0.1  coffee.service --daemon
 
 cameron@rye:~$ uptime
