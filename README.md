@@ -1,13 +1,13 @@
 ```bash
 $ ssh cameron@rye.dev
-Last login: Tue Apr  1 08:15:42 2026
+Last login: Mon Apr 20 08:15:42 2026
 Welcome to Camerons development environment
 
 cameron@rye:~$ whoami
 cameron
 
 cameron@rye:~$ cat /etc/motd
-🟢 AVAILABLE FOR HIRE - Senior Software Engineer
+⚡ Software Engineer
    TypeScript/React • .NET • Swift • Python • Rust • AI/MCP
 
 cameron@rye:~$ ls -la
@@ -50,12 +50,12 @@ cameron   4242  0.1  1.6  openzim-mcp --kiwix --offline-knowledge
 cameron   ∞     0.0  0.1  coffee.service --daemon
 
 cameron@rye:~$ tail -3 /var/log/blog.log
+[2026-04-04] Building Aranet: A Rust Toolkit for Liberating Environmental Sensor Data
 [2026-02-05] RSS Is Still Great (and Miniflux Is the Tool You Need)
 [2026-01-28] Building Zero Crust: Distributed State Management in Electron
-[2026-01-12] Building Ask: A RAG-Powered Chatbot for My Portfolio
 
 cameron@rye:~$ uptime
- 08:15:42 up 17 years, 73 days,  1 user,  load average: 0.42, 0.15, 0.08
+ 08:15:42 up 17 years, 91 days,  1 user,  load average: 0.42, 0.15, 0.08
 
 cameron@rye:~$ curl -s https://api.github.com/users/cameronrye | jq ".created_at"
 "2009-01-19T23:55:56Z"
@@ -66,7 +66,6 @@ cameron@rye:~$ echo $CURRENT_FOCUS
 cameron@rye:~$ cat /etc/contact
 Email: cameron@rye.dev
 Web: https://rye.dev
-Resume: https://cv.rye.dev
 Mastodon: https://meron.io/@c
 PGP: Available on request
 
